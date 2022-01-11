@@ -1,3 +1,16 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/PlayButton.gd" type="Script" id=1]
 
 [node name="MainMenu" type="Node2D"]
+
+[node name="PlayButton" type="Button" parent="."]
+margin_left = 404.0
+margin_top = 206.0
+margin_right = 442.0
+margin_bottom = 226.0
+text = "Play game"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}

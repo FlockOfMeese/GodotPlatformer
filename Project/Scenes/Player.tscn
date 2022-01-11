@@ -1,38 +1,20 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=4 format=2]
 
-[sub_resource type="SpriteFrames" id=1]
-animations = [ {
-"frames": [  ],
-"loop": true,
-"name": "right",
-"speed": 5.0
-}, {
-"frames": [  ],
-"loop": true,
-"name": "left",
-"speed": 5.0
-}, {
-"frames": [  ],
-"loop": true,
-"name": "jump",
-"speed": 5.0
-}, {
-"frames": [  ],
-"loop": true,
-"name": "fall",
-"speed": 5.0
-}, {
-"frames": [  ],
-"loop": true,
-"name": "die",
-"speed": 5.0
-} ]
+[ext_resource path="res://Scripts/Player.gd" type="Script" id=2]
 
-[node name="Player" type="Area2D"]
-__meta__ = {
-"_edit_group_": true
-}
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 23.0
+height = 34.0
 
-[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-frames = SubResource( 1 )
-animation = "die"
+[sub_resource type="StreamTexture" id=2]
+flags = 4
+load_path = "res://.import/Rockoda.png-884d41a5786737fb5f98759b6d5a1050.stex"
+
+[node name="Player" type="KinematicBody2D"]
+script = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = SubResource( 2 )
