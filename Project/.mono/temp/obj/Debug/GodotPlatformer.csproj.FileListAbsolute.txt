@@ -1,9 +1,0 @@
-C:\Users\Owner\Desktop\GodotPlatformer\GodotPlatformer\Project\.mono\temp\bin\Debug\GodotPlatformer.dll
-C:\Users\Owner\Desktop\GodotPlatformer\GodotPlatformer\Project\.mono\temp\bin\Debug\GodotPlatformer.pdb
-C:\Users\Owner\Desktop\GodotPlatformer\GodotPlatformer\Project\.mono\temp\obj\Debug\GodotPlatformer.csproj.AssemblyReference.cache
-C:\Users\Owner\Desktop\GodotPlatformer\GodotPlatformer\Project\.mono\temp\obj\Debug\GodotPlatformer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Owner\Desktop\GodotPlatformer\GodotPlatformer\Project\.mono\temp\obj\Debug\GodotPlatformer.AssemblyInfoInputs.cache
-C:\Users\Owner\Desktop\GodotPlatformer\GodotPlatformer\Project\.mono\temp\obj\Debug\GodotPlatformer.AssemblyInfo.cs
-C:\Users\Owner\Desktop\GodotPlatformer\GodotPlatformer\Project\.mono\temp\obj\Debug\GodotPlatformer.csproj.CoreCompileInputs.cache
-C:\Users\Owner\Desktop\GodotPlatformer\GodotPlatformer\Project\.mono\temp\obj\Debug\GodotPlatformer.dll
-C:\Users\Owner\Desktop\GodotPlatformer\GodotPlatformer\Project\.mono\temp\obj\Debug\GodotPlatformer.pdb
